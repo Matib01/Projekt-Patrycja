@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+body {
+  height: 100%;
+  background-color: white;
+}
+.text {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.logo {
+  width: 400px;
+  height: 200px;
+  border-radius: 10%;
+}
+.logo:hover {
+  background-color: orange;
+  transition: 2, 5s;
+}
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li {
+  display: inline-block;
+  align-items: baseline;
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+.menu {
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background: orange;
+  border-radius: 20%;
+  margin: 22px 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+.menu a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+  color: white;
+}
+h1,
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.main {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.Pati {
+  box-shadow: 0 0 20px 10px orange;
+  padding: -100px;
+  height: 500px;
+  width: 300px;
+  border-radius: 20%;
+}
+.right {
+  padding-top: 40px;
+  width: 40%;
+  text-align: center;
+  font-size: 30px;
+}
+.pasek {
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: orange;
+}
+.dolnyg {
+  margin-top: 25px;
+  height: 350px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.pomoc {
+  margin-top: 25px;
+  height: 450px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lewy,
+.prawy {
+  border-radius: 50%;
+  padding: 30px;
+  background-color: white;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.fa-heart {
+  color: orange;
+}
+.jakpomoc {
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.menu {
+  justify-content: center;
+  align-items: center;
+}
+.jakpomoc a {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background: orange;
+  border-radius: 20%;
+  margin: 22px 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+.jakpomoc a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+  color: white;
+}
+span:hover,
+h1:hover,
+h2:hover {
+  color: orange;
+}
+@media screen and (max-width: 1024px) {
+  .body {
+    margin: 0 auto;
+  }
+  ul li {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 25px;
+  }
+  .top {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Pati {
+    height: 350px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .pasek {
+    margin: 0 auto;
+    margin-top: 10px;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .dolnyg {
+    height: auto;
+  }
+  .pomoc {
+    height: auto;
+  }
+  .jakpomoc {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 25px;
+  }
+  .jakpomoc a {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .logo {
+    width: 250px;
+    height: 100px;
+    border-radius: 10%;
+  }
+}
